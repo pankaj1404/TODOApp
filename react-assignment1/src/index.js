@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import UserInput from './components/reactExample/assignment1BaseSyntax/userInput';
+import App from './App';
 // import ErrorBoundary from './components/Util/ErrorBoundary'
 ReactDOM.render(
   <React.StrictMode>
-   <UserInput />
+   <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
